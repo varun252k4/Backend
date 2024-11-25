@@ -1,8 +1,8 @@
 fastapi
-pydantic
 uvicorn
+pydantic
 numpy
-joblib
 scikit-learn
-pickle5
+joblib
+pickle-mixin
 xgboost
