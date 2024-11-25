@@ -9,6 +9,14 @@ from utils.utils import get_crop_recommendation, get_fertilizer_recommendation
 
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins; replace with specific domains for security
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods
+    allow_headers=["*"],  # Allow all headers
+)
+
 # Load models and encoders
 crop_model = pickle.load(open('Models/RandomForest.pkl', 'rb'))
 fertilizer_model = pickle.load(open('Models/fertilizer.pkl', 'rb'))
