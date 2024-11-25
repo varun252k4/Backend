@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 import joblib
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 import numpy as np
