@@ -72,7 +72,7 @@ chroma-hnswlib==0.7.6
 chromadb==0.5.9
 # click @ file:///D:/bld/click_1692312014553/work
 cloudpickle==3.0.0
-clyent==1.2.2
+clyent==1.2.1
 colbert-ai==0.2.21
 # colorama @ file:///C:/ci_311/colorama_1676422310965/work
 # colorcet @ file:///C:/ci_311/colorcet_1676440389947/work
